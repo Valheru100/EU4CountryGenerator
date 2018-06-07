@@ -1,0 +1,5 @@
+1,England,Portugal,Timurids and friends
+2,France,Burgundy,Any Sub-Saharan African or North African
+3,Castile,Mamluks,Muscovy
+4,Ottomans,Any HRE Country,Denmark Sweden or Norway
+5,Austria,Papal States,Poland
