@@ -71,7 +71,7 @@ public class Main
 		}
 
 		//recursively call the method increasing the input by 1, until all sets of choices are processed
-		if (increase < 5 && playerList.size() > 0)
+		if (increase < 4 && playerList.size() > 0)
 		{
 			assignGroups(increase + 1);
 		}
