@@ -3,11 +3,14 @@ package main;
 import java.util.ArrayList;
 import java.util.stream.Collectors;
 
+//Represent a group of countries
 public class Group
 {
 	private ArrayList<Country>	countriesInGroup	= new ArrayList<Country>();
 	private Integer				groupId;
 
+	//Constructor made to take in group from csv format: groupId,countryName,countryName,countryName...
+	//uses addCountryToGroup to add country using the input name
 	public Group(String inputLine)
 	{
 		String[] splitInput = inputLine.split(",");
