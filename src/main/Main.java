@@ -48,7 +48,7 @@ public class Main
 				try
 				{
 					group.getCountriesInGroup().get(i).setPlayer(playersByChoice.get(i));
-					System.out.println(group.getCountriesInGroup().get(i));
+					System.out.print(group.getCountriesInGroup().get(i));
 					playerList = (ArrayList<Player>) playerList.stream()
 							.filter(player -> player.getName() != playersByChoice.get(j).getName())
 							.collect(Collectors.toList());
